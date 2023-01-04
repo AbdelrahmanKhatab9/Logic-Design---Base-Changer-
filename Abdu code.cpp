@@ -1,3 +1,7 @@
+/*
+this code is for "Abdelrahman Ahmed Yasser" 
+*/
+
 #include <iostream>
 #include <string>
 #include <deque>
@@ -34,7 +38,8 @@ while (min(num, (long double)prec--))
 num *= toBase, (LL(num) >= 10 ? ans.push_back('A' + LL(num) - 10) : ans.push_back('0' + LL(num))), num -= LL(num);
 return string(allc(ans));}
 
-________________________
+________________________________________________________________________
+________________________________________________________________________
 void FilterExpression(string& s)
 {
 int filter = 0;
@@ -107,7 +112,8 @@ FilterExpression(s);
 return EvaluateExpression(s);
 }
 
-___________________________________________
+________________________________________________
+________________________________________________
 
 void makeExpBase10(string& s, int FromBase)
 {
@@ -144,6 +150,6 @@ return 0;
 
 
 
-------------------------
+------------------------ // end of code 
 
 
